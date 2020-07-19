@@ -109,6 +109,16 @@ def get_clicked_pos(pos, rows, width):
 
 	return row, col
 
+def main(win,width):
+    ROWS = 50
+    grid = make_grid(ROWS, width)
+    start = None
+    end = None
+    run =  True
+    started = False
+
+    while run:
+        for event in pygame.event.get():
             
 
 
